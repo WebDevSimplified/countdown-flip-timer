@@ -32,7 +32,6 @@ function flip(flipCard, newNumber) {
   const bottomFlip = document.createElement("div")
   bottomFlip.classList.add("bottom-flip")
 
-  top.textContent = startNumber
   bottomHalf.textContent = startNumber
   topFlip.textContent = startNumber
   bottomFlip.textContent = newNumber
